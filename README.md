@@ -29,5 +29,13 @@ Media Organizer is a Python application that helps you organize your unordered p
 ## Contributing
 Feel free to open an issue or submit a pull request if you have suggestions or improvements.
 
+## TODO
+1. For now the sort is done in one level of folders, the next step is to check recurcively the folders (ex : year > month, ...)
+   --> Find a way to show and select the layers of folders
+
+2. Next step is to use image metadata and filename to propose most relevant date (if file system is date-based)
+
+3. The goal is to use AI to compare the image to the ones in the folder  (what, how ?) to propose the best location based on its characteristics. And why not, if possible, propose to rearange the folders to better sort the media.
+
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
